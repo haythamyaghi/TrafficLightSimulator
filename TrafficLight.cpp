@@ -46,13 +46,13 @@ void TrafficLight::TransitionState()
 	switch (currentState)
 	{
 	case 'R':
-		currentState = 'Y';
-		break;
-	case 'Y':
 		currentState = 'G';
 		break;
-	case 'G':
+	case 'Y':
 		currentState = 'R';
+		break;
+	case 'G':
+		currentState = 'Y';
 		break;
 	}
 

@@ -1,2 +1,2 @@
 all:
-	g++ -o TrafficLghtSimulator *.cpp
+	g++ -o TrafficLightSimulator *.cpp
